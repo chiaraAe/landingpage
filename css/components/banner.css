@@ -1,0 +1,76 @@
+.banner {
+  background-image: url("../../images/background.png");
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.banner h1 {
+  color: white;
+}
+
+.banner p {
+  color: white;
+  opacity: .7;
+  font-size: 20px; ;
+}
+
+.btn-primary {
+  background-color: #1FDD88;
+  padding: 16px 36px;
+  border-radius: 32px;
+  display: inline;
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  padding: 20px;
+  border: 1px solid rgb(230, 230, 230);
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+}
+
+.card img {
+  height: 100px;
+}
+
+.card p {
+  opacity: 0.6;
+}
+
+.footer {
+  background-color:#2C2B2B;
+  text-align: center;
+  padding: 60px;
+}
+
+.links a{
+  color: #1FDD88;
+  font-size: 36px;
+}
+
+.links p {
+  color:rgb(180,180,180); ;
+}
+
+.fa-heart {
+  color: red;
+}
